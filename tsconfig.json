@@ -12,5 +12,5 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
   },
-  "exclude": ["test", "app.module.ts"]
+  "exclude": ["test", "app.module.ts", "app.service.ts"]
 }
