@@ -1,7 +1,7 @@
 {
   "name": "nestjs-ioredis-module",
   "description": "Redis Module With Nest, ioredis",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "scripts": {
     "prebuild": "rimraf dist",
     "test": "jest",
