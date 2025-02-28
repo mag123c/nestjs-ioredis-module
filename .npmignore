@@ -1,9 +1,5 @@
-node_modules/
-dist/
 test/
-src/
-.npmrc
-.git/
-.github/
-.vscode/
-README.md
+core/
+package-lock.json
+yarn.lock
+tsconfig.json
