@@ -1,4 +1,4 @@
-# NestJS Redis Module
+# NestJS ioredis Module
 
 A Redis module for NestJS, providing a simple way to integrate Redis into your NestJS application With ioredis.
 
@@ -24,7 +24,7 @@ export class AppModule {}
 
 ```
 
-!! Although it supports cluster mode, the creator himself has not yet developed it in a cluster mode environment.
+Although it supports cluster mode, the creator himself has not yet developed it in a cluster mode environment.
 
 ## License
 
