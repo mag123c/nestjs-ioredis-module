@@ -6,7 +6,10 @@
     "prebuild": "rimraf dist",
     "test": "jest",
     "dev": "nest start --watch",
-    "build": "nest build"
+    "build": "nest build",
+    "patch": "npm version patch && git push --follow-tags && npm publish",
+    "minor": "npm version minor && git push --follow-tags && npm publish",
+    "major": "npm version major && git push --follow-tags && npm publish"
   },
   "license": "MIT",
   "description": "Redis Module With Nest, ioredis",
