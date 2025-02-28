@@ -14,3 +14,9 @@ export interface RedisClusterOptions {
 }
 
 export type RedisModuleOptions = RedisSingleOptions | RedisClusterOptions;
+
+export interface RedisModuleAsyncOptions {
+    imports: any[];
+    inject: any[];
+    useFactory: (...args: any[]) => RedisModuleOptions | Promise<RedisModuleOptions>;
+}
