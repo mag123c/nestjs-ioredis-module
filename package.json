@@ -1,0 +1,62 @@
+{
+  "name": "nestjs-ioredis-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "test": "jest",
+    "dev": "nest start --watch",
+    "build": "nest build"
+  },
+  "license": "MIT",
+  "description": "Redis Module With Nest, ioredis",
+  "keywords": [
+    "nest",
+    "nest-modules",
+    "nestjs",
+    "nestjs-modules",
+    "redis",
+    "ioredis"
+  ],
+  "author": "mag123c",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mag123c/nestjs-ioredis-module.git"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.0.10",
+    "@nestjs/core": "^11.0.10",
+    "ioredis": "^5.5.0"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^11.0.10",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.5",
+    "jest": "^29.7.0",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.10",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/core": "^11.0.10",
+    "@nestjs/platform-express": "^11.0.10",
+    "ioredis": "^5.5.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "test",
+    "testRegex": ".e2e-spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    }
+  }
+}

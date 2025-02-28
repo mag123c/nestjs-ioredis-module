@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test/
+src/
+.npmrc
+.git/
+.github/
+.vscode/
+README.md
