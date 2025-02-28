@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2023",
+    "target": "es6",
     "module": "NodeNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,6 +11,12 @@
     "declaration": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "removeComments": true,
+    "noLib": false,
+    "sourceMap": false,
+    "lib": ["es7"]
   },
-  "exclude": ["test", "app.module.ts", "app.service.ts"]
+  "exclude": ["test", "app.module.ts", "app.service.ts", "node_modules"]
 }
